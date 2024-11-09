@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [functionality]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="weburl" value="file:///C:/Users/ymdta/Desktop/Automation%20Testing/com.DomsEpson/src/main/resources/Softwares/webpage.html"/>
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.DomsEpson.WelcomeTest.VerifyWelcomePageTest">
+        <methods>
+          <include name="SuiteSetup"/>
+          <include name="verifyWelcomePageWithValidInput"/>
+          <include name="browserTermination"/>
+          <include name="browserSetup"/>
+          <include name="verifyWelcomePageWithInvalidInput"/>
+          <include name="suiteTerminateSetup"/>
+        </methods>
+      </class> <!-- com.DomsEpson.WelcomeTest.VerifyWelcomePageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [functionality] -->

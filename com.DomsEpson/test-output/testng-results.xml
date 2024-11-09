@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step1: Successully launched]]>
+    </line>
+    <line>
+      <![CDATA[Step1: Launch the Browser Success]]>
+    </line>
+    <line>
+      <![CDATA[Step1.1: Maximize The browser Success]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Navigating the Application via URL Success]]>
+    </line>
+    <line>
+      <![CDATA[Step10: Close the Browser Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-08T11:27:52 IST" name="functionality" finished-at="2024-11-08T11:28:26 IST" duration-ms="33864">
+    <groups>
+    </groups>
+    <test started-at="2024-11-08T11:27:52 IST" name="ChromeTest" finished-at="2024-11-08T11:28:26 IST" duration-ms="33864">
+      <class name="com.DomsEpson.WelcomeTest.VerifyWelcomePageTest">
+        <test-method is-config="true" signature="SuiteSetup()[pri:0, instance:com.DomsEpson.WelcomeTest.VerifyWelcomePageTest@f09733f]" started-at="2024-11-08T11:27:51 IST" name="SuiteSetup" finished-at="2024-11-08T11:27:52 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteSetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:com.DomsEpson.WelcomeTest.VerifyWelcomePageTest@f09733f]" started-at="2024-11-08T11:27:52 IST" name="browserSetup" finished-at="2024-11-08T11:28:14 IST" duration-ms="21888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file:///C:/Users/ymdta/Desktop/Automation%20Testing/com.DomsEpson/src/main/resources/Softwares/webpage.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step1: Successully launched]]>
+            </line>
+            <line>
+              <![CDATA[Step1: Launch the Browser Success]]>
+            </line>
+            <line>
+              <![CDATA[Step1.1: Maximize The browser Success]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Navigating the Application via URL Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyWelcomePageWithValidInput()[pri:1, instance:com.DomsEpson.WelcomeTest.VerifyWelcomePageTest@f09733f]" started-at="2024-11-08T11:28:14 IST" name="verifyWelcomePageWithValidInput" finished-at="2024-11-08T11:28:18 IST" duration-ms="4109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomePageWithValidInput -->
+        <test-method signature="verifyWelcomePageWithInvalidInput()[pri:2, instance:com.DomsEpson.WelcomeTest.VerifyWelcomePageTest@f09733f]" started-at="2024-11-08T11:28:18 IST" name="verifyWelcomePageWithInvalidInput" finished-at="2024-11-08T11:28:21 IST" depends-on-methods="com.DomsEpson.WelcomeTest.VerifyWelcomePageTest.verifyWelcomePageWithValidInput" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomePageWithInvalidInput -->
+        <test-method signature="verifyWelcomePageWithInvalidInput()[pri:2, instance:com.DomsEpson.WelcomeTest.VerifyWelcomePageTest@f09733f]" started-at="2024-11-08T11:28:21 IST" name="verifyWelcomePageWithInvalidInput" finished-at="2024-11-08T11:28:25 IST" depends-on-methods="com.DomsEpson.WelcomeTest.VerifyWelcomePageTest.verifyWelcomePageWithValidInput" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomePageWithInvalidInput -->
+        <test-method is-config="true" signature="browserTermination()[pri:0, instance:com.DomsEpson.WelcomeTest.VerifyWelcomePageTest@f09733f]" started-at="2024-11-08T11:28:25 IST" name="browserTermination" finished-at="2024-11-08T11:28:26 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step10: Close the Browser Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:com.DomsEpson.WelcomeTest.VerifyWelcomePageTest@f09733f]" started-at="2024-11-08T11:28:26 IST" name="suiteTerminateSetup" finished-at="2024-11-08T11:28:29 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- com.DomsEpson.WelcomeTest.VerifyWelcomePageTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- functionality -->
+</testng-results>
